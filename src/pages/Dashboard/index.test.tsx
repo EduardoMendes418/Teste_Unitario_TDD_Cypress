@@ -15,11 +15,6 @@ globalThis.fetch = vi.fn();
 const mock = new MockAdapter(axios);
 const BASE_URL = "http://localhost:3000";
 
-function createFetchResponse(data: any) {
-  return {
-    json: () => new Promise((resolve) => resolve(data)),
-  };
-}
 
 const mockFetchListPokemonFn = vi
   .fn(fetchPokemonList)

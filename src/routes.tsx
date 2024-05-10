@@ -6,7 +6,7 @@ import {
   fetchPokemonDetail,
   fetchPokemonList,
 } from "./services/pokemonServices";
-import PokemonDetail from "./PokemonDetail";
+import PokemonDetail from "./pokemonDetail";
 
 export default function MainRoutes() {
   return (
