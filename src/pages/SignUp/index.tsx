@@ -19,7 +19,7 @@ export default function SignUp() {
         <input type="text" placeholder="Insira seu e-mail" />
         <input type="text" placeholder="Insira seu password" />
         <button>Sign Up</button>
-        <Link to="/sign-up">Não tem cadastro? Clique aqui!</Link>
+        <Link to="/">Não tem cadastro? Clique aqui!</Link>
       </form>
     </div>
   );

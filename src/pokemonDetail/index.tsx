@@ -31,8 +31,8 @@ export default function PokemonDetail({ fetchPokemonDetail }: IProps) {
   }, []);
 
   return (
-    <div>
-      <div className={styles.container}>
+    <div className={styles.container}>
+      <div >
         <h1>{pokemon.name}</h1>
         <img src={pokemon.image} alt={pokemon.name} />
         <strong>{pokemon.type}</strong>
